@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "outDir": "dist", 
+        "strict": true,
+        "noImplicitAny": false,
+        "resolveJsonModule": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "strictFunctionTypes": true,
+        "alwaysStrict": true, 
+        "removeComments": true,
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}

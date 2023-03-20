@@ -1,0 +1,15 @@
+.header {
+    position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    background-color: #24ac9a;
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }

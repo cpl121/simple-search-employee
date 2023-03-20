@@ -1,0 +1,11 @@
+<div>
+  <span class="p-float-label">
+    <input id="float-input" type="text" pInputText [(ngModel)]="value"> 
+    <label for="float-input">Buscar</label>
+    <p-button type="button" icon="pi pi-search" styleClass="p-button-text" (click)="sendData()"></p-button>
+  </span>
+</div>
+<br>
+<div>
+  <app-table [filter]="valueToSend"></app-table>
+</div>

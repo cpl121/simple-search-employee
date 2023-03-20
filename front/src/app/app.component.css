@@ -1,0 +1,13 @@
+.content {
+    display: block;
+    margin: 32px auto 32px;
+    padding: 0 16px;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.body {
+    position: relative;
+    padding-bottom: 2.5em;
+    min-height: 100vh;
+}

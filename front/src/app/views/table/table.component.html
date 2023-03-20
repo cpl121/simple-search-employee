@@ -1,0 +1,27 @@
+<div class="card">
+<p-table [value]="data | filter: filter" [paginator]="true" [rows]="10" [showCurrentPageReport]="true" responsiveLayout="scroll"
+        currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries" [rowsPerPageOptions]="[10, 20, 50]">
+        <ng-template pTemplate="header">
+            <tr>
+                <th>Id</th>
+                <th>Nombre completo</th>
+                <th>Fecha de nacimiento</th>
+                <th>Sexo</th>
+                <th>Tel&eacute;fono</th>
+                <th>Pa&iacute;s</th>
+                <th>&Uacute;ltima modificaci&oacute;n</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-data>
+            <tr>
+                <td>{{data.id}}</td>
+                <td>{{data.surname}} {{data.surname2}}, {{data.name}}</td>
+                <td>{{data.datebirthday}}</td>
+                <td>{{data.sexLarge}}</td>
+                <td>{{data.phonePrefix}}</td>
+                <td>{{data.country}}</td>
+                <td>{{data.lastModification}}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+  </div>
